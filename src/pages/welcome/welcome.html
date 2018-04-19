@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>
+        Welcome
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding>
+    <ion-list>
+      <ion-item>
+        <div text-center>
+          <ion-img width="80" height="80" src={{user.photo}}></ion-img>
+          <p>Nombre:</p>
+          <p>{{user.name}}</p>
+
+          <p>Email:</p>
+          <p>{{user.email}}</p>
+        </div>
+      </ion-item>
+     </ion-list>
+     <div>
+         <button ion-button primary block (click)="Versports()">Ver sports</button>
+       </div>
+  </ion-content>
